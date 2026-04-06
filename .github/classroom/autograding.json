@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Priority Output",
+      "setup": "javac src/ThreadPriorityDemo.java",
+      "run": "java -cp src ThreadPriorityDemo",
+      "input": "",
+      "output": "Thread 1 Priority: 1\nThread 2 Priority: 5\nThread 3 Priority: 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
